@@ -40,15 +40,15 @@ The university social networking app should use Node.js as its backend language 
 Permissions Architecture Decision Record (ADR)
 
 
-1. Decision: Permissions for Location Tracking, Camera, and Storage
+Decision: Permissions for Location Tracking, Camera, and Storage
 Status: Accepted
-2. Context:
+1. Context:
 Giving the app access to track your location lets it use GPS for features that depend on your location and to make personalized suggestions. Giving the app access to your camera lets you read QR codes and make safe transactions inside the app. The file permission lets the app save settings in the user's files, which makes sure the user experience is smooth.
-3. Negative:
+2. Negative:
 People may not use an app if it asks for private permissions because they worry about their privacy and trust. Adding these permissions also needs code that is special to the platform, which makes the development process more difficult.
-4. Positive:
+3. Positive:
 Giving users access to rights makes apps more useful and encourages them to keep using them. Permissions for cameras and files make things safer and lower the chance of data breaches. Location tracking and camera access make the experience more tailored to each user, which makes them happier.
-5. Rationale:
+4. Rationale:
 To enhance usefulness, security, and user experience, the app requires permissions for accessing the camera, tracking location, and storing data, enabling valuable features and interactions despite potential privacy concerns. Responsible and transparent use of permissions fosters personalized experiences, secure transactions, and seamless data storage, bolstering user trust and satisfaction.
 
 
